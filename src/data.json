@@ -1,0 +1,40 @@
+{
+    "categories": {
+      "Food": [
+        "images/food.jpg",
+        "images/food.jpg",
+        "images/food.jpg",
+        "images/food.jpg",
+        "images/food.jpg"
+      ],
+      "Mountains": [
+        "images/mountain.jpg",
+        "images/mountain.jpg",
+        "images/mountain.jpg",
+        "images/mountain.jpg",
+        "images/mountain.jpg"
+      ],
+      "Beaches": [
+        "images/Beach.jpg",
+        "images/Beach.jpg",
+        "images/Beach.jpg",
+        "images/Beach.jpg",
+        "images/Beach.jpg"
+      ],
+      "Water": [
+        "images/water.jpg",
+        "images/water.jpg",
+        "images/water.jpg",
+        "images/water.jpg",
+        "images/water.jpg"
+      ],
+      "Monkey": [
+        "images/monkey.png",
+        "images/monkey.png",
+        "images/monkey.png",
+        "images/monkey.png",
+        "images/monkey.png"
+      ]
+    }
+  }
+  
