@@ -1,7 +1,7 @@
 import React, { useState , useContext} from "react";
 import {ImageContext} from '../Context/ImageContext';
 
-const Search = () => {
+const Search = ({children}) => {
   const [searchTerm, setSearchTerm] = useState("");
   const {readData } = useContext(ImageContext);
 
@@ -26,6 +26,7 @@ const Search = () => {
       <button type="submit" className="bg-blue-500 text-white rounded-r py-2 px-4 hover:bg-blue-700 focus:outline-none">
         Search
       </button>
+      {children}
     </form>
   );
 };

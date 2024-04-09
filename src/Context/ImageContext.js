@@ -9,9 +9,9 @@ const ImageContextProvider = (props) => {
     }
 
     return (
-        <ImageContextProvider value={{ image, readData }}>
+        <ImageContext.Provider value={{ image, readData }}>
          {props.children}
-        </ImageContextProvider>
+        </ImageContext.Provider>
     )
 }
 

@@ -1,7 +1,7 @@
 import React, {useContext } from "react";
 import {ImageContext} from '../Context/ImageContext';
 
-const Button = (item) => {
+const Button = ({item}) => {
   const { images, readData } = useContext(ImageContext);
   const handleClick = () => {
     readData(item);
