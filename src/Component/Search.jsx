@@ -1,9 +1,9 @@
-import React, { useState , useContext} from "react";
+import React, { useState , useContext, useEffect} from "react";
 import {ImageContext} from '../Context/ImageContext';
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const {readData } = useContext(ImageContext);
+  const {image, readData } = useContext(ImageContext);
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
@@ -13,6 +13,12 @@ const Search = () => {
     event.preventDefault();
     readData(searchTerm);
   };
+
+  useEffect(()=> {
+    if (image !== searchTerm) {
+      setSearchTerm("");
+    }
+  }, [image])
 
   return (
     <form onSubmit={handleSubmit} className="flex items-center justify-center mb-4">

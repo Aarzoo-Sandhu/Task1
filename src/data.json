@@ -1,34 +1,34 @@
 {
     "categories": {
-      "Food": [
+      "food": [
         "images/food.jpg",
         "images/food.jpg",
         "images/food.jpg",
         "images/food.jpg",
         "images/food.jpg"
       ],
-      "Mountains": [
+      "mountains": [
         "images/mountain.jpg",
         "images/mountain.jpg",
         "images/mountain.jpg",
         "images/mountain.jpg",
         "images/mountain.jpg"
       ],
-      "Beaches": [
+      "beaches": [
         "images/Beach.jpg",
         "images/Beach.jpg",
         "images/Beach.jpg",
         "images/Beach.jpg",
         "images/Beach.jpg"
       ],
-      "Water": [
+      "water": [
         "images/water.jpg",
         "images/water.jpg",
         "images/water.jpg",
         "images/water.jpg",
         "images/water.jpg"
       ],
-      "Monkey": [
+      "monkey": [
         "images/monkey.png",
         "images/monkey.png",
         "images/monkey.png",

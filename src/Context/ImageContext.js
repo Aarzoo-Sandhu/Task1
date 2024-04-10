@@ -5,13 +5,12 @@ export const ImageContext = createContext();
 const ImageContextProvider = (props) => {
     const [image, setImage] = useState('Food');
     const readData = (text) => {
-        setImage(text)
+        setImage(text.toLowerCase())
     }
-
     return (
-        <ImageContextProvider value={{ image, readData }}>
+        <ImageContext.Provider value={{ image, readData }}>
          {props.children}
-        </ImageContextProvider>
+        </ImageContext.Provider>
     )
 }
 

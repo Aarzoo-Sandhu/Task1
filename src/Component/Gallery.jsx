@@ -3,8 +3,8 @@ import {ImageContext} from '../Context/ImageContext';
 import data from "../data.json";
 
 const Gallery = () => {
-    const { images} = useContext(ImageContext);
-  const results = data.categories[images] ?? [];
+    const { image} = useContext(ImageContext);
+  const results = data.categories[image] ?? [];
 
   return (
     <div className="flex flex-wrap justify-center">

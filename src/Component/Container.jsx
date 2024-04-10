@@ -5,7 +5,7 @@ import Gallery from "./Gallery";
 import Search from "./Search";
 
 const Container = () => {
-    const { images} = useContext(ImageContext);
+    const { image} = useContext(ImageContext);
 
   return (
     <div className="container mx-auto px-4">
@@ -17,7 +17,7 @@ const Container = () => {
         <Button item="Water"/>
       </div>
       
-      <h1 className="text-3xl font-bold text-center mb-8">{images} Pictures</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">{image.charAt(0).toUpperCase() + image.slice(1)} Pictures</h1>
       
       <Gallery/>
     </div>
